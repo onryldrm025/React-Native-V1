@@ -13,11 +13,15 @@ class Header extends React.Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'orange',
-    height: 50,
+    height: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 20,
-    margin: '5%',
+    borderBottomEndRadius: 40,
+    borderBottomStartRadius: 40,
+
+    zIndex: 2,
+    top: 0,
+    width: '100%',
   },
   text: {
     color: 'white',
